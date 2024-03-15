@@ -1,0 +1,12 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+   imagePath: string;
+   altText: string;
+   name: string;
+   age: number;
+}
+
+const { imagePath, altText, name, age } = Astro.props;
+---
